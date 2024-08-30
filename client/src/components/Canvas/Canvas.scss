@@ -1,0 +1,35 @@
+.canvas {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  canvas {
+    border: 2px solid black;
+    background-color: white;
+  }
+
+  .modal-username {
+    &__input {
+      display: block;
+      padding: 4px 5px;
+      font-size: 18px;
+    }
+
+    &__btn {
+      display: block;
+      padding: 7px 14px;
+      margin-left: auto;
+      background-color: #04fc84;
+      border: 1px solid black;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.25s background-color;
+
+      &:hover {
+        background-color: #05a95c;
+      }
+    }
+  }
+}
